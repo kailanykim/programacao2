@@ -1,10 +1,10 @@
  body {
-    background-color: bisque;
+    background-color:  rgb(247, 144, 194);
     }
 
 footer{ 
-    background-color: black;
-    color:white;
+    background-color: rgb(247, 144, 194);
+    color:rgb(251, 253, 168);
     position: fixed;
     bottom: 0;
     width: 100%;
