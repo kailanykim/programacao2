@@ -1,51 +1,51 @@
- body {
-    background: url(bg-desktop.wepb);
+body {
+    background-url(img/bg-desktop.webp);
+     font-family: Bai Jamjuree;
     }
-
-footer{ 
-    background-color:  rgba(248, 205, 242, 0.823);
-    color:rgb(0, 0, 0);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 2rem;
-}
-footer p {
-    text-align: center; 
-    font-size: 0.9rem;
+    
+    footer {
+        background-color: rgb(0, 0, 0)
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 2rem;
+    }
+    
+    footer p {
+    text-align: center;
+    font-size: 0.6rem;
     margin-top: 0.5rem;
-}
-
-#container {
-    display: flex;
-}
-
-    .cartao{
+    }
+    
+    #container {
+        display: flex;
+      }
+    
+      .cartao {
         margin: 1rem 1rem;
-        background-color: rgb(255, 202, 235);
+        background-color: rgb(255, 255, 255);
         height: 20rem;
         flex-grow: 1;
-        flex-basis: calc(33% - 6rem);
+        flex-basis: calc(33% - 6rem)
     }
-
-    .cartao__conteudo {
-        text-align: center;
-        background-color: rgb(255, 189, 252);
-        height: 100%;
+    
+    .cartao__conteudo{
+      text-align: center;
+      background-color: rgb(255, 255, 255);
+      height: 100%;
     }
-
-    .cartao__conteudo h3{ 
-        background-color: rgb(249, 255, 192);
-        text-align: left; 
-        padding: 0.5rem;
-        position: absolute;
-        margin: 0.6rem;
-        border-radius: 0.6rem;
-        font-size: 1vw;
+    
+    .cartao__conteudo h3 {
+      background-color: tomato;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
     }
-
-    :root { 
-    --text-color: #DBE4EF;
-    --card-front-color:#144480;
-    --card-black-color:#00F4BF;
-    }
+    
+    .cartao__conteudo{
+      
+      text-align: center;
